@@ -13,11 +13,11 @@
 # Import cx_Oracle package and connect to Oracle Database
 import cx_Oracle
 
-HOST_NAME = "imz409.ust.hk"
-PORT_NUMBER = "1521"
-SERVICE_NAME = "imz409"
-USERNAME = "LA205"
-PASSWORD = "PA914"
+HOST_NAME = "***"
+PORT_NUMBER = "***"
+SERVICE_NAME = "***"
+USERNAME = "***"
+PASSWORD = "***"
 
 dsn_tns = cx_Oracle.makedsn(HOST_NAME, PORT_NUMBER, service_name=SERVICE_NAME)
 conn = cx_Oracle.connect(user=USERNAME, password=PASSWORD, dsn=dsn_tns)
