@@ -37,6 +37,7 @@ The backend provides data management and business logic functions including:
 
 ## Project Contributors
 This project was developed as a collaborative effort by Group 205 for ISOM 3260 in Spring 24-25.
+Final Grade: A
 
 ## Technical Implementation
 The system is implemented using:
